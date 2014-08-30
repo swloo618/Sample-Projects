@@ -1,0 +1,24 @@
+<PG ID="35CFE025-548A-451E-8BD4-2B1EEA76798E" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Page3" BgClr="ffffff" BgTparent="0" BgPicName="default_pagebg.png" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="320" H="480" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<BTN ID="95C9248E-7E2D-4A3F-8FF5-FCA98F31B452" Nm="TextButton1" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="5" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+			<LCT X="16%" Y="10%" W="231%" H="73%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+			<STYLE BgClr="808000" PressedBgClr="999933" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;Back&quot;" />
+			</DATA>
+			<ONPRESSED script="Page3_TextButton1_OnPressed(e);" />
+		</BTN>
+		<WEBVIEW ID="4FAAE444-829C-4748-9D9B-C2C21B1230C1" Nm="WebView1" Vsb="1" TouchEnabled="1" OpenLinksInside="0" ScalePageToFit="1">
+			<LCT X="0%" Y="102%" W="1000%" H="898%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;http://plainchess.timwoelfle.de/&quot;" />
+			</DATA>
+		</WEBVIEW>
+	</BODY>
+	<EVENTS>
+		<ONKEYP script="Page3_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

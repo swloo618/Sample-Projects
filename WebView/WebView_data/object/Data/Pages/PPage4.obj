@@ -1,0 +1,24 @@
+<PG ID="DBE8CFA5-A2E9-4517-BE9B-8486C9BAA532" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Page4" BgClr="ffffff" BgTparent="0" BgPicName="default_pagebg.png" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="320" H="480" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<BTN ID="C58AEEEC-C069-4EEE-B0F6-2E22B49AC008" Nm="TextButton1" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="5" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+			<LCT X="16%" Y="10%" W="231%" H="73%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+			<STYLE BgClr="808000" PressedBgClr="999933" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;Back&quot;" />
+			</DATA>
+			<ONPRESSED script="Page4_TextButton1_OnPressed(e);" />
+		</BTN>
+		<WEBVIEW ID="E9B6500F-0498-4DE5-A90C-1505F9FB8A35" Nm="WebView1" Vsb="1" TouchEnabled="1" OpenLinksInside="0" ScalePageToFit="1">
+			<LCT X="0%" Y="102%" W="1000%" H="898%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;http://xwuz.com/bubble/#game&quot;" />
+			</DATA>
+		</WEBVIEW>
+	</BODY>
+	<EVENTS>
+		<ONKEYP script="Page4_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>
