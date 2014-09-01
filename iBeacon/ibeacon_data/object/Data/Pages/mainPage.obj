@@ -1,0 +1,44 @@
+<PG ID="C7388CCE-7E7A-4DB2-A6AC-AB4201920AF7" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Page1" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="320" H="480" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<BTN ID="606B93C9-3C36-4D42-A327-C257E5F8FFEA" Nm="TextButton1" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+			<LCT X="69%" Y="38%" W="860%" H="100%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="8p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+			<STYLE BgClr="b5ba27" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;Monitor Beacons&quot;" />
+			</DATA>
+			<ONPRESSED script="Page1_TextButton1_OnPressed(e);" />
+		</BTN>
+		<LBL ID="FC6DEFE6-153F-44C9-A1D0-33CB5EE8FF8F" Nm="Label1" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="1" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+			<LCT X="69%" Y="156%" W="860%" H="550%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+			<STYLE BgTparent="0" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;&quot;" />
+			</DATA>
+		</LBL>
+		<BTN ID="A0A37777-A8D9-40B6-90F2-7D768DADF215" Nm="TextButton2" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+			<LCT X="69%" Y="777%" W="860%" H="100%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="8p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+			<STYLE BgClr="b5ba27" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;Start Broadcast&quot;" />
+			</DATA>
+			<ONPRESSED script="Page1_TextButton2_OnPressed(e);" />
+		</BTN>
+		<LBL ID="AF19FDB6-7DEE-45F4-A360-F9872DC8183D" Nm="Label2" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="1" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+			<LCT X="69%" Y="908%" W="860%" H="73%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+			<STYLE BgTparent="0" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;&quot;" />
+			</DATA>
+		</LBL>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="Page1_Self_OnShow(e);" />
+		<ONKEYP script="Page1_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>
