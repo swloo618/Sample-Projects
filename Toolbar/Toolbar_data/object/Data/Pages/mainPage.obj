@@ -1,0 +1,176 @@
+<PG ID="C7388CCE-7E7A-4DB2-A6AC-AB4201920AF7" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Page1" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="480" H="800" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<RECT ID="E1440D95-71E5-4DD0-A491-F0434C9212F8" Nm="Rectangle1" Vsb="1" Alpha="56" TouchEnabled="1" Clr="666666" BrW="1" Fill="1" BrClr="666666" PxlEdg="3">
+			<LCT X="0%" Y="0%" W="1000%" H="900%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<ROT Angle="0" />
+			<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+			<ONTOUCH script="Page1_Rectangle1_OnTouch(e);" />
+		</RECT>
+		<PIC ID="15649B73-BDAB-45A5-9A05-A368309660AF" Nm="Image1" Vsb="1" Alpha="100" TouchEnabled="1">
+			<LCT X="172%" Y="150%" W="653%" H="650%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<POS Pos="15" SMode="64" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="resources://default_splash.png" />
+			</DATA>
+		</PIC>
+		<CONTAINER ID="5DF93160-F074-4AA0-A73B-1466C9765D54" Nm="Toolbar" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="900%" W="1000%" H="200%" Z="0" Anc="8" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+			<ITEMS>
+				<CONTAINER ID="6794BDC1-5D1C-4C49-96D6-A6D0EB6E064D" Nm="ToolbarUp" Vsb="1" TouchEnabled="1" AutoSize="0">
+					<LCT X="0%" Y="0%" W="1000%" H="500%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="0" LayoutVerticalGap="0" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<BTN ID="47FA7BB7-EABD-46D3-8832-001E0DC7EDD3" Nm="btnHome" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+							<LCT X="241%" Y="463%" W="250%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+							<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<POS Pos="3" SMode="2" />
+							<IMGS>
+								<INACT InactiveResName="" />
+								<DEFAULT DefaultResName="home1.png" />
+								<HGHLIGHTD HighlightedResName="home2.png" />
+								<FOC FocusedResName="" />
+							</IMGS>
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+							<ONPRESSED script="Page1_btnHome_OnPressed(e);" />
+						</BTN>
+						<BTN ID="F371BACB-4DA0-4EC5-B310-7A8982011BD0" Nm="btnImage" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+							<LCT X="241%" Y="463%" W="250%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+							<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<POS Pos="3" SMode="2" />
+							<IMGS>
+								<INACT InactiveResName="" />
+								<DEFAULT DefaultResName="picture1.png" />
+								<HGHLIGHTD HighlightedResName="picture2.png" />
+								<FOC FocusedResName="" />
+							</IMGS>
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+							<ONPRESSED script="Page1_btnImage_OnPressed(e);" />
+						</BTN>
+						<BTN ID="6B3F37E7-BDAD-46FB-AC42-EE63FD27D4FC" Nm="btnPen" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+							<LCT X="241%" Y="463%" W="250%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+							<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<POS Pos="3" SMode="2" />
+							<IMGS>
+								<INACT InactiveResName="" />
+								<DEFAULT DefaultResName="pen1.png" />
+								<HGHLIGHTD HighlightedResName="pen2.png" />
+								<FOC FocusedResName="" />
+							</IMGS>
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+							<ONPRESSED script="Page1_btnPen_OnPressed(e);" />
+						</BTN>
+						<BTN ID="C588F969-B17A-4E41-92B3-26F490F262E6" Nm="btnMore" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+							<LCT X="241%" Y="463%" W="250%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+							<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<POS Pos="3" SMode="2" />
+							<IMGS>
+								<INACT InactiveResName="" />
+								<DEFAULT DefaultResName="devam1.png" />
+								<HGHLIGHTD HighlightedResName="devam2.png" />
+								<FOC FocusedResName="" />
+							</IMGS>
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+							<ONPRESSED script="Page1_btnMore_OnPressed(e);" />
+						</BTN>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="A8C74676-D499-41E0-8C1D-2B33C823DDB3" Nm="ToolbarDown" Vsb="1" TouchEnabled="1" AutoSize="0">
+					<LCT X="0%" Y="500%" W="1000%" H="500%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="0" LayoutVerticalGap="0" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<BTN ID="420125E9-A9B1-4B89-A80E-ABE6672A1B0A" Nm="btnWeather" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+							<LCT X="241%" Y="463%" W="250%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+							<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<POS Pos="3" SMode="2" />
+							<IMGS>
+								<INACT InactiveResName="" />
+								<DEFAULT DefaultResName="umbrella1.png" />
+								<HGHLIGHTD HighlightedResName="umbrella2.png" />
+								<FOC FocusedResName="" />
+							</IMGS>
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+							<ONPRESSED script="Page1_btnWeather_OnPressed(e);" />
+						</BTN>
+						<BTN ID="A8CC9920-0EA4-43FE-BA4C-EB98F58A35EE" Nm="btnSettings" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+							<LCT X="241%" Y="463%" W="250%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+							<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<POS Pos="3" SMode="2" />
+							<IMGS>
+								<INACT InactiveResName="" />
+								<DEFAULT DefaultResName="cog1.png" />
+								<HGHLIGHTD HighlightedResName="cog2.png" />
+								<FOC FocusedResName="" />
+							</IMGS>
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+							<ONPRESSED script="Page1_btnSettings_OnPressed(e);" />
+						</BTN>
+						<BTN ID="3BD8682C-800C-4346-88E1-32A46B9F363B" Nm="btnMail" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+							<LCT X="241%" Y="463%" W="250%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+							<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<POS Pos="3" SMode="2" />
+							<IMGS>
+								<INACT InactiveResName="" />
+								<DEFAULT DefaultResName="mail1.png" />
+								<HGHLIGHTD HighlightedResName="mail2.png" />
+								<FOC FocusedResName="" />
+							</IMGS>
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+							<ONPRESSED script="Page1_btnMail_OnPressed(e);" />
+						</BTN>
+						<BTN ID="9322D538-F071-4EF7-A48C-546A63856B5A" Nm="btnPin" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="0">
+							<LCT X="241%" Y="463%" W="250%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FColor="333333" PressedFColor="ffffff" DisabledFColor="ff0000" FStyle="0" Undrln="0" />
+							<STYLE HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<POS Pos="3" SMode="2" />
+							<IMGS>
+								<INACT InactiveResName="ButtonInactive.png" />
+								<DEFAULT DefaultResName="pointer1.png" />
+								<HGHLIGHTD HighlightedResName="pointer2.png" />
+								<FOC FocusedResName="" />
+							</IMGS>
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+							<ONPRESSED script="Page1_btnPin_OnPressed(e);" />
+						</BTN>
+					</ITEMS>
+				</CONTAINER>
+			</ITEMS>
+		</CONTAINER>
+		<LBL ID="EE351B88-94C3-4025-8ECD-2BF1D5FFC758" Nm="Label1" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+			<LCT X="0%" Y="0%" W="1000%" H="73%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Verdana" FSize="8p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="ffffff" FStyle="0" Undrln="0" />
+			<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;Toolbar Sample Project by SAS&quot;" />
+			</DATA>
+		</LBL>
+	</BODY>
+</PG>

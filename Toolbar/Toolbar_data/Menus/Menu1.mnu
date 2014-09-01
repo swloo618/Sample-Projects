@@ -1,0 +1,18 @@
+<OBJECT>
+	<Menu name="Menu1" id="D864061B-A8C8-4C71-81DC-28000E69CA51" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific TextDirection="0" Title="">
+			<ITEMS>
+				<Item ID="00000000-0000-0000-0000-100000000002" Title="Property1" Type="0" IconResId="00000000-0000-0000-0000-100000000001">
+				</Item>
+				<Item ID="00000000-0000-0000-0000-100000000002" Title="Property2" Type="0" IconResId="00000000-0000-0000-0000-100000000001">
+				</Item>
+				<Item ID="00000000-0000-0000-0000-100000000002" Title="Property3" Type="0" IconResId="00000000-0000-0000-0000-100000000001">
+				</Item>
+				<Item ID="00000000-0000-0000-0000-100000000002" Title="Property4" Type="0" IconResId="00000000-0000-0000-0000-100000000001">
+				</Item>
+				<Item ID="00000000-0000-0000-0000-100000000002" Title="Property5" Type="0" IconResId="00000000-0000-0000-0000-100000000001">
+				</Item>
+			</ITEMS>
+		</TypeSpecific>
+	</Menu>
+</OBJECT>
