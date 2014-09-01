@@ -1,0 +1,14 @@
+<PG ID="CD29E913-EEF2-4749-B995-9C6E30275F2F" Type="1" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="dlgLoading" BgClr="f0f0f0" BgTparent="1" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0%" Y="0%" W="1000%" H="1000%" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<RECT ID="54CAC392-DDA7-4A73-8285-01F535CE7B1A" Nm="RectangleBg" Vsb="1" Alpha="57" TouchEnabled="1" Clr="000000" BrW="0" Fill="1" BrClr="666666" PxlEdg="0">
+			<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<ROT Angle="0" />
+			<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+		</RECT>
+		<ACTIVITYINDICATOR ID="EAF26DB2-D1A6-4A47-ACAA-84997C8F4ADA" Nm="ActivityIndicator1" Vsb="1" Style="2" TouchEnabled="1">
+			<LCT X="444%" Y="463%" W="36" H="36" Z="0" Anc="3" LockAutoPosition="0" />
+		</ACTIVITYINDICATOR>
+	</BODY>
+</PG>

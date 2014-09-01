@@ -1,0 +1,21 @@
+<PG ID="C7388CCE-7E7A-4DB2-A6AC-AB4201920AF7" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="pgMain" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="1" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="1" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="1136" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<MAPVIEW ID="5EF043D8-BCEB-412D-8F56-524F85D4F785" Nm="MapView1" Vsb="-1" MapType="0" CenterLatitude="41,035972" CenterLongitude="29,046902" ZoomLevel="2" EnableZoom="1" EnableScroll="1" ShowUserLocation="1" ShowPins="1" TouchEnabled="1">
+			<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<DATA>
+				<PRM Nm="Bind1" Val="" />
+				<PRM Nm="Bind2" Val="" />
+				<PRM Nm="Bind3" Val="" />
+				<PRM Nm="Bind4" Val="" />
+				<PRM Nm="Bind5" Val="" />
+				<PRM Nm="Bind6" Val="" />
+			</DATA>
+		</MAPVIEW>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="pgMain_Self_OnShow(e);" />
+		<ONKEYP script="pgMain_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>
