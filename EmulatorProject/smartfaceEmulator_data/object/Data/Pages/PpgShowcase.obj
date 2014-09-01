@@ -1,0 +1,27 @@
+<PG ID="D1E9405A-D6BD-454C-A74F-9B7396C584A4" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="pgShowcase" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="1" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="1136" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<CONTAINER ID="1A06196E-77C9-4644-89E6-C793FE9181E7" Nm="conShowcase" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+			<ITEMS>
+				<WEBVIEW ID="65444EFD-0C12-4D08-9B80-0674E2096FC7" Nm="WebView1" Vsb="1" TouchEnabled="1" OpenLinksInside="0" ScalePageToFit="0">
+					<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="http://www.smartface.io/showcase/" />
+					</DATA>
+					<ONLOAD script="pgShowcase_WebView1_OnLoad(e);" />
+				</WEBVIEW>
+			</ITEMS>
+		</CONTAINER>
+		<ACTIVITYINDICATOR ID="3E600DCE-F2F9-4A83-A09D-960618A71EB5" Nm="ActivityIndicator1" Vsb="1" Style="1" TouchEnabled="1">
+			<LCT X="483%" Y="490%" W="21" H="21" Z="0" Anc="3" LockAutoPosition="0" />
+		</ACTIVITYINDICATOR>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="pgShowcase_Self_OnShow(e);" />
+		<ONKEYP script="pgShowcase_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

@@ -1,0 +1,40 @@
+<PG ID="8A45F6E0-D37C-409A-B00B-0D3E532C693B" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="pgWebView" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="1" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="1136" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<CONTAINER ID="37C9CF95-F951-4F30-ABEC-CE223D7233B0" Nm="conWebView" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+			<ITEMS>
+				<WEBVIEW ID="9BAB0211-0F9C-44D4-A40C-902A38EF0336" Nm="WebViewQnA" Vsb="0" TouchEnabled="1" OpenLinksInside="0" ScalePageToFit="1">
+					<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="Data.DS_QnA.qnaRowLink" />
+					</DATA>
+					<ONLOAD script="pgWebView_WebViewQnA_OnLoad(e);" />
+				</WEBVIEW>
+				<WEBVIEW ID="725BC96A-4096-435D-A17C-C1BE2EEDFCEA" Nm="WebViewGuides" Vsb="0" TouchEnabled="1" OpenLinksInside="0" ScalePageToFit="1">
+					<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="Data.DS_Guides.guidesRowLink" />
+					</DATA>
+					<ONLOAD script="pgWebView_WebViewGuides_OnLoad(e);" />
+				</WEBVIEW>
+				<WEBVIEW ID="6D11D2FC-E645-44AB-B64E-5AA8941D8163" Nm="WebViewTipsTricks" Vsb="0" TouchEnabled="1" OpenLinksInside="0" ScalePageToFit="1">
+					<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="Data.DS_TipsTricks.tipsntricksRowLink" />
+					</DATA>
+					<ONLOAD script="pgWebView_WebViewTipsTricks_OnLoad(e);" />
+				</WEBVIEW>
+			</ITEMS>
+		</CONTAINER>
+		<ACTIVITYINDICATOR ID="9427CEDC-FD49-4E8E-9C0C-248AB8BADCBB" Nm="ActivityIndicator1" Vsb="1" Style="1" TouchEnabled="1">
+			<LCT X="483%" Y="510%" W="21" H="21" Z="0" Anc="3" LockAutoPosition="0" />
+		</ACTIVITYINDICATOR>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="pgWebView_Self_OnShow(e);" />
+	</EVENTS>
+</PG>

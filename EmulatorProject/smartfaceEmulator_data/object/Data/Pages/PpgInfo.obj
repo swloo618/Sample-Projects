@@ -1,0 +1,102 @@
+<PG ID="74E396B3-8D35-4192-A035-E1A45B81A492" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="pgInfo" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="1" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="1136" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<SCROLLVIEW ID="FBBCAB31-C3D8-4634-AB5C-75E3E4D29FDB" Nm="ScrollViewInfo" Vsb="1" TouchEnabled="1">
+			<LCT X="50%" Y="0%" W="900%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="1" LayoutOrientation="1" LayoutAlignment="0" LayoutHorizontalGap="0" LayoutVerticalGap="20" />
+			<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" ContentW="900%" ContentH="1000%" EnableVScrl="1" EnableHScrl="0" ShwVScrl="1" ShwHScrl="0" EnbZm="0" ScrlIndStyle="0" DclRate="0" ScrollX="0" ScrollY="0" EnableVPaging="0" EnableHPaging="0" AutoSize="1" />
+			<ITEMS>
+				<LBL ID="758DD51A-1A96-4085-8DE3-5E668C6F7C8D" Nm="Label" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+					<LCT X="241%" Y="509%" W="1000%" H="73%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Default" FSize="8p" FUnit="pt" AdjustFSize="1" MinFSize="7" FColor="beb001" FStyle="1" Undrln="0" />
+					<STYLE BgTparent="1" BgClr="beb001" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;Cross-Platform Mobility Framework&quot;" />
+					</DATA>
+				</LBL>
+				<LBL ID="1AA44F31-25E3-474C-9544-7E4BDB287B88" Nm="Label1" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="1" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="1">
+					<LCT X="50%" Y="3000d" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+					<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="0" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;You don’t  to knhaveow Java for Android and Objective-C for iOS. Just use JavaScript, with Smartface App Studio. \n\nUse Native UI components with WYSIWYG editor to easily design your app and code with 100% JavaScript to develop native mobile apps for Android and iOS, is the new way to build state-of-the-art mobile apps. \n\nWe’re trying to provide the fastest possible development environment for you. We know that time is very important for all of us. Most of time in app development is spent for design work. Smartface App Studio offers you “What You See Is What You Get” design editor and this becomes very easy to use with Native UI components. Just use these components and write .JS functions! Your design will perfectly fit into Android and iOS devices. Your app is ready for publish after that. \n\nSingle click publish button gives you .apk for Android and .xcodeproj for iOS. You can easily download Smartface App Studio, easily develop to cross-platform and easily get native output(s). Yes, you can get your app outputs for Android and iOS in a same time. \n\n&quot;" />
+					</DATA>
+				</LBL>
+				<CONTAINER ID="5799F835-D794-4684-9A0F-B9DD0104BA49" Nm="Container1" Vsb="1" TouchEnabled="1" AutoSize="1">
+					<LCT X="178%" Y="388%" W="900%" H="294%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="5" LayoutVerticalGap="5" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="54E2710F-ECFF-4287-8880-7F50F26BB6E3" Nm="Label2" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="1">
+							<LCT X="97%" Y="359%" W="100%" H="273%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="1" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="0" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Website : &quot;" />
+							</DATA>
+						</LBL>
+						<LBL ID="496BAD0D-58DB-4743-BF7C-E6F8047C12EA" Nm="Label3" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="1">
+							<LCT X="850%" Y="352%" W="600%" H="273%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="0" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;http://www.smartface.io&quot;" />
+							</DATA>
+						</LBL>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="073AA004-79DF-408B-A30B-28369DBCC85E" Nm="Container2" Vsb="1" TouchEnabled="1" AutoSize="1">
+					<LCT X="178%" Y="388%" W="900%" H="294%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="5" LayoutVerticalGap="5" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="C4242C54-4917-43EC-8F65-84BBDFB49FF9" Nm="Label21" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="97%" Y="359%" W="350%" H="273%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="1" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;HQ : &quot;" />
+							</DATA>
+						</LBL>
+						<LBL ID="1804370F-DE63-4FF5-8742-3673B9BC85EA" Nm="Label31" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="850%" Y="352%" W="650%" H="273%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Palo Alto, San Francisco&quot;" />
+							</DATA>
+						</LBL>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="11C90963-8141-4179-9DE2-A8911439B710" Nm="Container3" Vsb="1" TouchEnabled="1" AutoSize="1">
+					<LCT X="178%" Y="388%" W="900%" H="294%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="5" LayoutVerticalGap="5" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="6DAB4700-6178-4718-A449-BBB5EF66E7CB" Nm="Label22" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="97%" Y="359%" W="350%" H="273%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="1" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;R&amp;D Office : &quot;" />
+							</DATA>
+						</LBL>
+						<LBL ID="58A64844-F303-4C17-8F80-6A9292BBC339" Nm="Label32" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="850%" Y="352%" W="650%" H="273%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="7p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Istanbul, Turkey.&quot;" />
+							</DATA>
+						</LBL>
+					</ITEMS>
+				</CONTAINER>
+			</ITEMS>
+		</SCROLLVIEW>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="pgInfo_Self_OnShow(e);" />
+		<ONKEYP script="pgInfo_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

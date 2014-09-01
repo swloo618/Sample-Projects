@@ -1,0 +1,48 @@
+<OBJECT>
+	<Table name="tblTipsNTricks" id="FA48F3CC-588D-418F-9E44-F5D20DBC14DE" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific LastFieldID="0" Guid="" OverrideOnUpdate="1" ReadOnly="0" isServerObject="0" OneToOneType="45071378" ActualFileSize="0" RunOnMemory="0">
+			<Columns>
+				<Column ID="1" Name="tipsntricksRow" Type="0" DefaultValue="" AutoIncrement="0" PrimaryKey="0" PrimaryAssistant="0" ForeignKey="00000000-0000-0000-0000-000000000000" IsSecure="0" />
+				<Column ID="2" Name="tipsntricksRowLink" Type="0" DefaultValue="" AutoIncrement="0" PrimaryKey="0" PrimaryAssistant="0" ForeignKey="00000000-0000-0000-0000-000000000000" IsSecure="0" />
+			</Columns>
+			<Rows>
+				<Row ID="1" Caption="">
+					<Cell Value="Application Design Guideline" />
+					<Cell Value="http://developer.smartface.io/hc/en-us/articles/200982247" />
+				</Row>
+				<Row ID="2" Caption="">
+					<Cell Value="Smartface App Development Flow" />
+					<Cell Value="http://developer.smartface.io/hc/en-us/articles/200982257-Smartface-App-Development-Flow" />
+				</Row>
+				<Row ID="3" Caption="">
+					<Cell Value="Performance Tips" />
+					<Cell Value="http://developer.smartface.io/hc/en-us/articles/201213063-Performance-Tips" />
+				</Row>
+				<Row ID="4" Caption="">
+					<Cell Value="Supported Image Formats" />
+					<Cell Value="http://developer.smartface.io/hc/en-us/articles/201951958" />
+				</Row>
+				<Row ID="5" Caption="">
+					<Cell Value="Application.OnError" />
+					<Cell Value="http://developer.smartface.io/hc/en-us/articles/201760267" />
+				</Row>
+				<Row ID="6" Caption="">
+					<Cell Value="Emulator Troubleshooting" />
+					<Cell Value="http://developer.smartface.io/hc/en-us/articles/201560716" />
+				</Row>
+				<Row ID="7" Caption="">
+					<Cell Value="Open a thread, programmatically" />
+					<Cell Value="http://developer.smartface.io/hc/en-us/articles/201629226" />
+				</Row>
+				<Row ID="8" Caption="">
+					<Cell Value="Visual Design Guide (Phone)" />
+					<Cell Value="http://developer.smartface.io/hc/en-us/articles/201812983" />
+				</Row>
+				<Row ID="9" Caption="">
+					<Cell Value="Security Tips for Smartface App Studio Development" />
+					<Cell Value="http://developer.smartface.io/hc/en-us/articles/202297468" />
+				</Row>
+			</Rows>
+		</TypeSpecific>
+	</Table>
+</OBJECT>

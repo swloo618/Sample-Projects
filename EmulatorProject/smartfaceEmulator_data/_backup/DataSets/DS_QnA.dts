@@ -1,0 +1,15 @@
+<OBJECT>
+	<Dataset name="DS_QnA" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific Table="00000000-0000-0000-0000-100000000001" AutoCommit="0" FastCommit="0" PreserveState="0" SelectAll="0" isServerObject="0">
+			<Fields>
+				<Field ID="1" Name="tblQnA.qnaRow" TblID="74FDDDE6-E821-490B-9C6A-A6CC79026AD8" />
+				<Field ID="2" Name="tblQnA.qnaRowLink" TblID="74FDDDE6-E821-490B-9C6A-A6CC79026AD8" />
+			</Fields>
+			<SqlText>
+			<![CDATA[
+SELECT "tblQnA"."qnaRow", "tblQnA"."qnaRowLink" FROM "tblQnA"
+			]]>
+			</SqlText>
+		</TypeSpecific>
+	</Dataset>
+</OBJECT>
