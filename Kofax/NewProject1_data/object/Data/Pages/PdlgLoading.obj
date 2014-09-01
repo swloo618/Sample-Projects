@@ -1,0 +1,22 @@
+<PG ID="1AFF6DD4-797D-4F3F-8740-268E102E6470" Type="1" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="dlgLoading" BgClr="f0f0f0" BgTparent="1" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0%" Y="0%" W="1000%" H="1000%" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<RECT ID="FFC7E35D-36A9-4937-BAB4-4385A6183592" Nm="Rectangle1" Vsb="1" Alpha="50" TouchEnabled="1" Clr="000000" BrW="0" Fill="1" BrClr="666666" PxlEdg="0">
+			<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<ROT Angle="0" />
+			<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+		</RECT>
+		<ACTIVITYINDICATOR ID="40A7FF57-8A05-4AD5-8EED-B95F58FC2C20" Nm="ActivityIndicator1" Vsb="1" Style="0" TouchEnabled="1">
+			<LCT X="466%" Y="477%" W="21" H="21" Z="0" Anc="3" LockAutoPosition="0" />
+		</ACTIVITYINDICATOR>
+		<LBL ID="5B3BFD20-8A10-449E-B2C2-09030FA68026" Nm="LabelInfo" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="1" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+			<LCT X="81%" Y="333%" W="875%" H="144%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="ffffff" FStyle="0" Undrln="0" />
+			<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;&quot;" />
+			</DATA>
+		</LBL>
+	</BODY>
+</PG>
