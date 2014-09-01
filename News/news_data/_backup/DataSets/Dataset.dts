@@ -1,0 +1,14 @@
+<OBJECT>
+	<Dataset name="Dataset" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific Table="00000000-0000-0000-0000-100000000001" AutoCommit="0" FastCommit="0" PreserveState="0" SelectAll="1" isServerObject="0">
+			<Fields>
+				<Field ID="1" Name="emptytable.ds" TblID="DAE3DCAA-7779-49C1-A925-9FE430CD0029" />
+			</Fields>
+			<SqlText>
+			<![CDATA[
+SELECT * FROM "emptytable"
+			]]>
+			</SqlText>
+		</TypeSpecific>
+	</Dataset>
+</OBJECT>

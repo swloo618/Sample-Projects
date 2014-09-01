@@ -1,0 +1,56 @@
+<OBJECT>
+	<Table name="emptytable" id="DAE3DCAA-7779-49C1-A925-9FE430CD0029" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific LastFieldID="0" Guid="" OverrideOnUpdate="1" ReadOnly="0" isServerObject="0" OneToOneType="7209061" ActualFileSize="0" RunOnMemory="0">
+			<Columns>
+				<Column ID="1" Name="ds" Type="0" DefaultValue="" AutoIncrement="0" PrimaryKey="0" PrimaryAssistant="0" ForeignKey="00000000-0000-0000-0000-000000000000" IsSecure="0" />
+			</Columns>
+			<Rows>
+				<Row ID="1" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="2" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="3" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="4" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="5" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="6" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="7" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="8" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="9" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="10" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="11" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="12" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="13" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="14" Caption="">
+					<Cell Value="" />
+				</Row>
+				<Row ID="15" Caption="">
+					<Cell Value="" />
+				</Row>
+			</Rows>
+		</TypeSpecific>
+	</Table>
+</OBJECT>
