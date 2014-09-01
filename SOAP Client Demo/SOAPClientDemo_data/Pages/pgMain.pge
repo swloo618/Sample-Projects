@@ -1,0 +1,26 @@
+<SMF xsi:schemaLocation="http://developer.smartface.biz/SAS/schema/4.1.0/sasObjects.xsd sasObjects.xsd" xmlns="http://developer.smartface.biz/SAS/schema/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UI>
+		<Page name="pgMain" id="C7388CCE-7E7A-4DB2-A6AC-AB4201920AF7" backgroundImage="" fillColor="#ffffff" imageFillType="SMF.UI.ImageFillType.tile" imagePosition="SMF.UI.Alignment.topLeft" limitObjectsInPageBoundaries="false" lockOrientation="false" showStatusBar="true" showNavigationBar="true" showActionBar="true" touchEnabled="true" templatePageID="00000000-0000-0000-0000-100000000001">
+			<controls>
+				<RepeatBox name="RepeatBox1" id="AFB81B56-BBB3-4E9A-A41F-5916226FEE0B" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="100%" height="100%" left="0%" top="0%" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true" anchor.left="true" anchor.top="true" anchor.right="false" anchor.bottom="false" enableScroll="true" showScrollBar="true" groupItems="false" lockAutoSize="false" designVisible="true" groupStyle="SMF.UI.GroupingStyle.plain" enablePullDownToRefresh="false" enablePullUpToRefresh="false" roundEdge="0" editMode="1" previousEditMode="1" showHeader="false" scrollHeader="false" borderColor="#999999" borderWitdh="1" autoSize="false" loop="false" layoutType="SMF.UI.LayoutType.absolute" alignment="SMF.UI.LayoutAlignment.none" orientation="SMF.UI.Orientation.none" verticalGap="5px" horizontalGap="5px" backgroundTransparent="false" dataSource="Data.dSetTitle" groupingDataSource="" useActiveItem="false" onSelectedItem="pgMain_RepeatBox1_OnSelectedItem(e);">
+					<itemTemplate positionBackroundImage="SMF.UI.ImageFillType.stretch" backgroundImage="" fillColor="#e3ebea" height="10,0000001490116%" imageFillType="SMF.UI.Alignment.topLeft">
+						<controls>
+							<Label name="Label1" id="1BF483B1-3F68-4FD2-9744-B6EFB66622CB" parent="AFB81B56-BBB3-4E9A-A41F-5916226FEE0B" parentMode="1" width="80,0000011920929%" height="100%" left="5,00000007450581%" top="0%" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="false" designVisible="true" backgroundTransparent="true" text="Data.dSetTitle.title" font.name="Default" font.size="8pt" fontColor="#000000" font.bold="true" font.italic="false" font.underline="false" font.strikeThrough="false" anchor.left="true" anchor.top="true" anchor.right="false" anchor.bottom="false" textAlignment="SMF.UI.Alignment.left" multipleLine="false" fillColor="#cccccc" borderColor="#999999" borderWitdh="0" alpha="1" autoSize="false" showScrollbars="false" adjustFontSizeToFit="false" minimumFontSize="7" detectURLsInString="false" roundEdge="3" horizontalGap="0px" />
+						</controls>
+					</itemTemplate>
+					<activeItemTemplate positionBackroundImage="SMF.UI.ImageFillType.stretch" backgroundImage="" fillColor="#a6e7e2" height="40px" imageFillType="SMF.UI.Alignment.topLeft">
+					</activeItemTemplate>
+					<pullUpItem positionBackroundImage="SMF.UI.ImageFillType.stretch" backgroundImage="" fillColor="#e3ebea" height="28,3699989318848%" imageFillType="SMF.UI.Alignment.topLeft">
+					</pullUpItem>
+					<pullDownItem positionBackroundImage="SMF.UI.ImageFillType.stretch" backgroundImage="" fillColor="#e3ebea" height="28,3699989318848%" imageFillType="SMF.UI.Alignment.topLeft">
+					</pullDownItem>
+					<headerItem positionBackroundImage="SMF.UI.ImageFillType.stretch" backgroundImage="" fillColor="#8d8d8d" height="28,3699989318848%" imageFillType="SMF.UI.Alignment.topLeft">
+					</headerItem>
+					<grouppingHeaderTemplate positionBackroundImage="SMF.UI.ImageFillType.stretch" backgroundImage="" fillColor="#9f9f9f" height="28,3699989318848%" imageFillType="SMF.UI.Alignment.topLeft">
+					</grouppingHeaderTemplate>
+				</RepeatBox>
+			</controls>
+			<EVENTS onShow="pgMain_Self_OnShow(e);" onKeyPress="pgMain_Self_OnKeyPress(e);" />
+		</Page>
+	</UI>
+</SMF>

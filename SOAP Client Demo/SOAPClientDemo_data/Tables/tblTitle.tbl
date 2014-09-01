@@ -1,0 +1,47 @@
+<OBJECT>
+	<Table name="tblTitle" id="AA11A1B5-212D-4376-A308-2706CD2B0280" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="0px" height="0px" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true">
+		<TypeSpecific LastFieldID="0" Guid="" OverrideOnUpdate="1" ReadOnly="0" isServerObject="0" OneToOneType="0" ActualFileSize="0" RunOnMemory="0">
+			<Columns>
+				<Column ID="1" Name="title" Type="0" DefaultValue="" AutoIncrement="0" PrimaryKey="0" PrimaryAssistant="0" ForeignKey="00000000-0000-0000-0000-000000000000" IsSecure="0" />
+			</Columns>
+			<Rows>
+				<Row ID="1" Caption="">
+					<Cell Value="Hello World" />
+				</Row>
+				<Row ID="2" Caption="">
+					<Cell Value="Using parameters (base)" />
+				</Row>
+				<Row ID="3" Caption="">
+					<Cell Value="Using .NET framework core classes" />
+				</Row>
+				<Row ID="4" Caption="">
+					<Cell Value="Void methods" />
+				</Row>
+				<Row ID="5" Caption="">
+					<Cell Value="Throw Exception" />
+				</Row>
+				<Row ID="6" Caption="">
+					<Cell Value="Sync calls" />
+				</Row>
+				<Row ID="7" Caption="">
+					<Cell Value="Using custom entities (classes)" />
+				</Row>
+				<Row ID="8" Caption="">
+					<Cell Value="Arrays" />
+				</Row>
+				<Row ID="9" Caption="">
+					<Cell Value="ICollection" />
+				</Row>
+				<Row ID="10" Caption="">
+					<Cell Value="Practical usage" />
+				</Row>
+				<Row ID="11" Caption="">
+					<Cell Value="Using the SOAP response (xml)" />
+				</Row>
+				<Row ID="12" Caption="">
+					<Cell Value="Using parameters (advanced)" />
+				</Row>
+			</Rows>
+		</TypeSpecific>
+	</Table>
+</OBJECT>
