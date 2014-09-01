@@ -1,0 +1,1 @@
+New Compatibility update for Smartface Digipass demo.
