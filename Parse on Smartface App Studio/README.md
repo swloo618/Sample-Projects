@@ -3,5 +3,5 @@ Parse on Smartface
 
 This sample demonstrates how to use Parse Platform on Smartface.
 
-![Parse screenshot](https://raw.github.com/THaliloglu/Sample-Projects/master/Parse-on-Smartface-App-Studio/Parse-ss1.PNG)
-![Parse screenshot1](https://raw.github.com/THaliloglu/Sample-Projects/master/Parse-on-Smartface-App-Studio/Parse-ss2.PNG)
+![Parse screenshot](https://github.com/THaliloglu/Sample-Projects/blob/master/Parse%20on%20Smartface%20App%20Studio/Parse-ss1.PNG)
+![Parse screenshot1](https://github.com/THaliloglu/Sample-Projects/blob/master/Parse%20on%20Smartface%20App%20Studio/Parse-ss2.png)
