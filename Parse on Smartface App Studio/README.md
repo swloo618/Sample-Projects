@@ -1,5 +1,5 @@
-Parse on Smartface
-==================
+Parse on Smartface App Studio
+=============================
 
 This sample demonstrates how to use Parse Platform on Smartface.
 
