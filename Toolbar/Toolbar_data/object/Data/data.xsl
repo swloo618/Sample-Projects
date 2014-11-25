@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <SMARTFACEPROJECT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SmartfaceProjectPlayerUpdated.xsd">
-<PROJECT SID="-1" WS="http://www.smartface.biz" dateLastResourceUpdated="010101000000" AppID="1701667150" AppName="Smartface Demo" CID="0" Ver="1.0.0" ScreenW="480" ScreenH="800" Dpi="240" FacebookAppUID="" FacebookAppSecret="" TwitterConsumerKey="" TwitterConsumerSecret="">
+<PROJECT SID="-1" WS="http://www.smartface.biz" dateLastResourceUpdated="010101000000" AppID="0" AppName="Smartface Demo" CID="0" Ver="1.0.0" ScreenW="320" ScreenH="480" Dpi="163" FacebookAppUID="" FacebookAppSecret="" TwitterConsumerKey="" TwitterConsumerSecret="">
 	<MAPAPI AndroidMapKey="01u81e3cP5lidl1HRJ55hoBH0N5_Kmlvku4EIYg" IosGeocodingKey="" />
 	<ADMOB AdMobPublisherId="" AdMobTestUsage="0" />
 	<DEVICEORIENTATIONS DeviceOrientationPortrait="1" DeviceOrientationUpsideDown="0" DeviceOrientationLandscapeLeft="0" DeviceOrientationLandscapeRight="0" />

@@ -1,0 +1,72 @@
+<PG ID="6CB97853-2667-48D7-968B-D01DAAB3632C" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Demo05" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="1" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="320" H="480" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<CONTAINER ID="595D7EBD-97EF-4DE5-80C5-AE656E3BA11D" Nm="cntMain" Vsb="1" TouchEnabled="1" AutoSize="1">
+			<LCT X="0%" Y="0%" W="1000%" H="854%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="1" LayoutOrientation="1" LayoutAlignment="0" LayoutHorizontalGap="0" LayoutVerticalGap="0" />
+			<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+			<ITEMS>
+				<CONTAINER ID="ECB914D5-5DBE-4A17-BFCC-57F61AC25E83" Nm="contTitle" Vsb="1" TouchEnabled="1" AutoSize="1">
+					<LCT X="125%" Y="-54%" W="1000%" H="200%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="6DB041CC-C3FF-44C2-B13E-4380AAECA1DC" Nm="lblTitle" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="50%" Y="257%" W="800%" H="473%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="000000" FStyle="1" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;&quot;" />
+							</DATA>
+						</LBL>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="DC9D465B-563F-46B6-BCBB-24EF06872D8D" Nm="contSubTitle" Vsb="1" TouchEnabled="1" AutoSize="1">
+					<LCT X="1000%" Y="201%" W="1000%" H="150%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="EFF6D27C-42A1-46C3-A1E2-51C7F4FD8EA8" Nm="lblSubTitle" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="1" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="1">
+							<LCT X="50%" Y="50%" W="919%" H="681%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Handling exceptions:&quot;" />
+							</DATA>
+						</LBL>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="F052121B-EF6B-4B33-AC44-F66134F9EEA5" Nm="cntAction" Vsb="1" TouchEnabled="1" AutoSize="0">
+					<LCT X="1000%" Y="491%" W="1000%" H="249%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<BTN ID="65D643DB-7F8D-4F27-B35D-B0B321E40A3E" Nm="tbExceptionAsync" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+							<LCT X="525%" Y="227%" W="438%" H="420%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+							<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Throw Exception (async)&quot;" />
+							</DATA>
+							<ONPRESSED script="Demo05_tbExceptionAsync_OnPressed(e);" />
+						</BTN>
+						<BTN ID="6A5A5BBD-BA45-49A6-80C0-AA3A0C9C81CD" Nm="tbException" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+							<LCT X="50%" Y="227%" W="438%" H="421%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+							<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Throw Exception&quot;" />
+							</DATA>
+							<ONPRESSED script="Demo05_tbException_OnPressed(e);" />
+						</BTN>
+					</ITEMS>
+				</CONTAINER>
+			</ITEMS>
+		</CONTAINER>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="Demo05_Self_OnShow(e);" />
+		<ONKEYP script="Demo05_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

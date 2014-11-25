@@ -1,0 +1,36 @@
+<PG ID="C7388CCE-7E7A-4DB2-A6AC-AB4201920AF7" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="pgMain" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="1" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="1" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="320" H="480" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<REPEATBOX ID="AFB81B56-BBB3-4E9A-A41F-5916226FEE0B" Nm="RepeatBox1" Vsb="1" Enb="0" TouchEnabled="1" EnableScroll="1" ShwScrl="1" ItmDel="0" ItmReord="0" ItmGrpng="0" GrpngStyle="0" PDownRefresh="0" PUpRefresh="0" PxlEdg="0" ShowHeader="0" ScrollHeader="0" StrokeWidth="1" StrokeColor="999999" AutoSize="0" Loop="0" UseActiveItem="0">
+			<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<DATASOURCE>
+				<PRM Nm="Bind" Val="Data.dSetTitle" />
+			</DATASOURCE>
+			<GROUPINGDATASOURCE>
+				<PRM Nm="Bind" Val="" />
+			</GROUPINGDATASOURCE>
+			<ITM InActItemH="100%" ActItemH="40" HeaderItemH="284%" GroupingHeaderItemH="284%" PullDownItemH="284%" PullUpItemH="284%">
+				<STYLE BgTparent="0" InActBgClr="eaebe3" InActBgPicName="" InActPicPosition="3" InActPicSizeMode="2" ActBgClr="e2e7a6" ActBgPicName="" ActPicPosition="3" ActPicSizeMode="2" HeaderBgClr="8d8d8d" HeaderBgPicName="" HeaderPicPosition="3" HeaderPicSizeMode="2" GroupingHeaderBgClr="9f9f9f" GroupingHeaderBgPicName="" GroupingHeaderPicPosition="3" GroupingHeaderPicSizeMode="2" PullDownBgClr="eaebe3" PullDownBgPicName="" PullDownPicPosition="3" PullDownPicSizeMode="2" PullUpBgClr="eaebe3" PullUpBgPicName="" PullUpPicPosition="3" PullUpPicSizeMode="2" />
+				<BODY>
+					<INACTIVEITEMS>
+						<LBL ID="1BF483B1-3F68-4FD2-9744-B6EFB66622CB" Nm="Label1" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="50%" Y="0%" W="800%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="000000" FStyle="1" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="Data.dSetTitle.title" />
+							</DATA>
+						</LBL>
+					</INACTIVEITEMS>
+				</BODY>
+			</ITM>
+			<ONSELECTEDITEM script="pgMain_RepeatBox1_OnSelectedItem(e);" />
+		</REPEATBOX>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="pgMain_Self_OnShow(e);" />
+		<ONKEYP script="pgMain_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

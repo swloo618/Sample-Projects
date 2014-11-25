@@ -1,0 +1,10 @@
+Pages.Page1.EditBox1.characterList = "";
+Pages.Page1.EditBox1.isPassword = false;
+Pages.Page1.EditBox1.lengthRangeMin = 0;
+Pages.Page1.EditBox1.lengthRangeMax = 0;
+Pages.Page1.EditBox1.mask = "";
+Pages.Page1.EditBox1.returnKeyType = SMF.UI.ReturnKeyType.default;
+Pages.Page1.EditBox1.keyboardType = SMF.UI.KeyboardType.default;
+Pages.Page1.EditBox1.inputFiltering = SMF.UI.InputFiltering.default;
+Pages.Page1.EditBox1.valueRangeMin = 0;
+Pages.Page1.EditBox1.valueRangeMax = 0;

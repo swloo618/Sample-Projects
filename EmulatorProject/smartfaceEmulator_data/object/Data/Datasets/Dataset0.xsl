@@ -1,10 +1,11 @@
-<DATASET ID="331B3A28-B3E5-4FDC-8080-0F5BB10FF0E9" Name="DS_Test" TableID="15A1A951-F43C-4D1A-AF01-DEDBFDBE8BCD" AutoCommit="0" FastCommit="0" PreserveState="0">
+<DATASET ID="BF8783A3-B48A-42A5-9D1B-88B363D45A1F" Name="DS_Guides" TableID="D59199CE-C5A1-4055-92B6-37478BF8137A" AutoCommit="0" FastCommit="0" PreserveState="0">
 	<SQLTEXT>
 	<![CDATA[
-SELECT "tblTest"."test_info" FROM "tblTest"
+SELECT "tblGuides"."guidesRow", "tblGuides"."guidesRowLink" FROM "tblGuides"
 	]]>
 	</SQLTEXT>
 	<COLUMNS>
-		<COLUMN ID="1" Name="tblTest.test_info" />
+		<COLUMN ID="1" Name="tblGuides.guidesRow" />
+		<COLUMN ID="2" Name="tblGuides.guidesRowLink" />
 	</COLUMNS>
 </DATASET>

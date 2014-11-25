@@ -1,0 +1,63 @@
+<PG ID="2C22CB20-B0D0-4608-A5A6-9A37F25DA231" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Demo08" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="1" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="1" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="320" H="480" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<CONTAINER ID="7F9EE92F-1BAA-4B26-8370-831E8DFD38FD" Nm="cntMain" Vsb="1" TouchEnabled="1" AutoSize="1">
+			<LCT X="0%" Y="0%" W="1000%" H="854%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="1" LayoutOrientation="1" LayoutAlignment="0" LayoutHorizontalGap="0" LayoutVerticalGap="0" />
+			<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+			<ITEMS>
+				<CONTAINER ID="6EC6108C-F493-4913-ABDD-9235AAA5E064" Nm="contTitle" Vsb="1" TouchEnabled="1" AutoSize="1">
+					<LCT X="125%" Y="-54%" W="1000%" H="200%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="E48FAC76-916D-4B30-9A69-9D033309248F" Nm="lblTitle" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="50%" Y="257%" W="800%" H="473%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="000000" FStyle="1" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="Data.dSetTitle.title" />
+							</DATA>
+						</LBL>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="D3B610B7-4FB1-40F6-AD10-B16E10C688D0" Nm="contSubTitle" Vsb="1" TouchEnabled="1" AutoSize="1">
+					<LCT X="1000%" Y="201%" W="1000%" H="290%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="DF8675FF-50F0-43BD-9FAD-0D8A8FA51EE2" Nm="lblSubTitle" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="1" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="1">
+							<LCT X="50%" Y="50%" W="919%" H="682%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Using custom entity arrays. The web method returns an array with 4 User objects (see demo No. 7)&quot;" />
+							</DATA>
+						</LBL>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="DAD7F366-B956-4FD4-90DF-A4BEBD5ABBC9" Nm="cntAction" Vsb="1" TouchEnabled="1" AutoSize="0">
+					<LCT X="1000%" Y="491%" W="1000%" H="249%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<BTN ID="08915648-70AC-4B74-9B16-7433F055DB60" Nm="tbGetIsers" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+							<LCT X="334%" Y="227%" W="328%" H="420%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+							<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Get users&quot;" />
+							</DATA>
+							<ONPRESSED script="Demo08_tbGetIsers_OnPressed(e);" />
+						</BTN>
+					</ITEMS>
+				</CONTAINER>
+			</ITEMS>
+		</CONTAINER>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="Demo08_Self_OnShow(e);" />
+		<ONKEYP script="Demo08_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

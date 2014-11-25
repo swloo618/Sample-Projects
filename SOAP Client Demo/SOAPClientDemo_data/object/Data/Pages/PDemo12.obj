@@ -1,0 +1,192 @@
+<PG ID="E2CE8ABB-43E1-4004-B372-1D5C9DA9B7E6" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Demo12" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="1" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="1" ShwActionBar="1" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="320" H="480" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<CONTAINER ID="B3E1E0F9-DC50-4510-97EA-DD5A2E6C3023" Nm="cntMain" Vsb="1" TouchEnabled="1" AutoSize="1">
+			<LCT X="0%" Y="0%" W="1000%" H="854%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="1" LayoutOrientation="1" LayoutAlignment="0" LayoutHorizontalGap="0" LayoutVerticalGap="0" />
+			<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+			<ITEMS>
+				<CONTAINER ID="E227F538-7221-4394-B46F-DCC4B45D4592" Nm="contTitle" Vsb="1" TouchEnabled="1" AutoSize="1">
+					<LCT X="125%" Y="-54%" W="1000%" H="150%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="F5915B1D-6C95-48BF-A7D0-AECB27C8D400" Nm="lblTitle" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="50%" Y="257%" W="800%" H="473%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="8p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="000000" FStyle="1" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="Data.dSetTitle.title" />
+							</DATA>
+						</LBL>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="8BD132D2-8341-4837-B4E8-4876D53EFBE9" Nm="contSubTitle" Vsb="1" TouchEnabled="1" AutoSize="1">
+					<LCT X="1000%" Y="201%" W="1000%" H="180%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="D149C199-8B69-44A5-93A9-D2BD3DAC968B" Nm="lblSubTitle" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="1" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="1">
+							<LCT X="50%" Y="50%" W="919%" H="682%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Passing complex parameters to the Web Service&quot;" />
+							</DATA>
+						</LBL>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="71106CF7-E2A0-4929-A396-A9AFD500D1BF" Nm="cntAction1" Vsb="1" TouchEnabled="1" AutoSize="0">
+					<LCT X="1000%" Y="491%" W="1000%" H="150%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="1" LayoutAlignment="0" LayoutHorizontalGap="5" LayoutVerticalGap="5" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="BCC8237C-5571-4355-B8BF-92EB176C0EEB" Nm="lblAction1" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="509%" Y="489%" W="919%" H="380%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Example #1: string, int, float, bool, Date&quot;" />
+							</DATA>
+						</LBL>
+						<BTN ID="BF22B8DF-0F1B-4B3D-9FFA-C9A497D632D2" Nm="tbSend1" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+							<LCT X="950%" Y="566%" W="422%" H="377%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+							<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Send - 1&quot;" />
+							</DATA>
+							<ONPRESSED script="Demo12_tbSend1_OnPressed(e);" />
+						</BTN>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="BCF5C4A0-8794-4743-9654-F67992AA40E7" Nm="cntAction2" Vsb="1" TouchEnabled="1" AutoSize="0">
+					<LCT X="1000%" Y="491%" W="1000%" H="150%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="1" LayoutAlignment="0" LayoutHorizontalGap="5" LayoutVerticalGap="5" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="E8F347EA-3B87-452C-91AF-F49672DD0329" Nm="lblAction2" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="509%" Y="489%" W="919%" H="380%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Example #2: string[]&quot;" />
+							</DATA>
+						</LBL>
+						<BTN ID="B3AD965D-A87E-4076-9478-629A5927580F" Nm="tbSend2" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+							<LCT X="950%" Y="566%" W="422%" H="377%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+							<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Send - 2&quot;" />
+							</DATA>
+							<ONPRESSED script="Demo12_tbSend2_OnPressed(e);" />
+						</BTN>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="BD11CE45-726D-4527-A6C0-28D126895B60" Nm="cntAction3" Vsb="1" TouchEnabled="1" AutoSize="0">
+					<LCT X="1000%" Y="491%" W="1000%" H="150%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="1" LayoutAlignment="0" LayoutHorizontalGap="5" LayoutVerticalGap="5" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="12597BEC-BCC9-487D-869E-F70DFFDA11C8" Nm="lblAction3" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="509%" Y="489%" W="919%" H="380%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Example #3: int[]&quot;" />
+							</DATA>
+						</LBL>
+						<BTN ID="63C8077C-600D-40F8-9CEC-0BD4D83B44DB" Nm="tbSend3" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+							<LCT X="950%" Y="566%" W="422%" H="377%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+							<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Send - 3&quot;" />
+							</DATA>
+							<ONPRESSED script="Demo12_tbSend3_OnPressed(e);" />
+						</BTN>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="2963C69D-0060-4BBB-ABCB-336694349695" Nm="cntAction4" Vsb="1" TouchEnabled="1" AutoSize="0">
+					<LCT X="1000%" Y="491%" W="1000%" H="150%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="1" LayoutAlignment="0" LayoutHorizontalGap="5" LayoutVerticalGap="5" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="F730B065-82B4-41FC-A594-7D8F33F23099" Nm="lblAction4" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="509%" Y="489%" W="919%" H="380%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Example #4: user(custom object)&quot;" />
+							</DATA>
+						</LBL>
+						<CONTAINER ID="A9218EC5-0D59-45B3-A6AF-39901F9F13A8" Nm="cntAction4Sub" Vsb="1" TouchEnabled="1" AutoSize="0">
+							<LCT X="950%" Y="1038%" W="984%" H="384%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<Layout LayoutType="1" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="491d" LayoutVerticalGap="0" />
+							<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+							<ITEMS>
+								<BTN ID="31FE67FE-0C63-4AE4-8B04-73CEBF4739F0" Nm="tbSend4A" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+									<LCT X="641%" Y="1000%" W="300%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+									<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+									<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+									<DATA>
+										<PRM Nm="Bind" Val="&quot;Send - 4a&quot;" />
+									</DATA>
+									<ONPRESSED script="Demo12_tbSend4A_OnPressed(e);" />
+								</BTN>
+								<BTN ID="253D78A6-ED88-44E6-BB82-D75C07FDD374" Nm="tbSend4B" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+									<LCT X="641%" Y="1000%" W="300%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+									<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+									<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+									<DATA>
+										<PRM Nm="Bind" Val="&quot;Send - 4b&quot;" />
+									</DATA>
+									<ONPRESSED script="Demo12_tbSend4B_OnPressed(e);" />
+								</BTN>
+								<BTN ID="8498B1F9-4289-45CA-A0A7-299D9334BD07" Nm="tbSend4C" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+									<LCT X="641%" Y="1000%" W="300%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+									<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+									<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+									<DATA>
+										<PRM Nm="Bind" Val="&quot;Send - 4c&quot;" />
+									</DATA>
+									<ONPRESSED script="Demo12_tbSend4C_OnPressed(e);" />
+								</BTN>
+							</ITEMS>
+						</CONTAINER>
+					</ITEMS>
+				</CONTAINER>
+				<CONTAINER ID="EFEBA848-2E95-46EC-9DBE-2311D2F6119D" Nm="cntAction5" Vsb="1" TouchEnabled="1" AutoSize="0">
+					<LCT X="1000%" Y="491%" W="1000%" H="150%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<Layout LayoutType="1" LayoutOrientation="1" LayoutAlignment="0" LayoutHorizontalGap="5" LayoutVerticalGap="5" />
+					<STYLE BrClr="313031" BrW="0" BgTparent="1" BgClr="eff3ef" />
+					<ITEMS>
+						<LBL ID="074877FA-4091-4111-A6A0-18BCE5BD29CF" Nm="lblAction5" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="1" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+							<LCT X="509%" Y="489%" W="919%" H="380%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="666666" FStyle="0" Undrln="0" />
+							<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Example #5: User[] (custom object list)&quot;" />
+							</DATA>
+						</LBL>
+						<BTN ID="15BB57EF-9D57-454E-84E2-CDD0DD941DAF" Nm="tbSend5" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+							<LCT X="950%" Y="566%" W="422%" H="377%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+							<FONT FName="Default" FSize="6p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+							<STYLE BgClr="c0c0c0" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+							<DATA>
+								<PRM Nm="Bind" Val="&quot;Send - 5&quot;" />
+							</DATA>
+							<ONPRESSED script="Demo12_tbSend5_OnPressed(e);" />
+						</BTN>
+					</ITEMS>
+				</CONTAINER>
+			</ITEMS>
+		</CONTAINER>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="Demo12_Self_OnShow(e);" />
+		<ONKEYP script="Demo12_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

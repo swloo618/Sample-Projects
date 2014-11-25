@@ -39,7 +39,7 @@
 		</TABLE>
 	</DATATABLES>
 	<DATASETS>
-		<DATASET ID="B65D5E89-F3BB-48E6-B9FE-FFED15344A0B" Name="Dataset1" TableID="DAE3DCAA-7779-49C1-A925-9FE430CD0029" AutoCommit="0" FastCommit="0" PreserveState="0">
+		<DATASET ID="EAC55055-E5D3-46FB-BAEC-BF714B9D4AB0" Name="Dataset1" TableID="DAE3DCAA-7779-49C1-A925-9FE430CD0029" AutoCommit="0" FastCommit="0" PreserveState="0">
 			<SQLTEXT>
 			<![CDATA[
 SELECT * FROM "emptytable"
@@ -49,7 +49,7 @@ SELECT * FROM "emptytable"
 				<COLUMN ID="1" Name="emptytable.ds" />
 			</COLUMNS>
 		</DATASET>
-		<DATASET ID="E2A8E761-8337-407D-B728-8902C99526A2" Name="WebClient_OutDSetWebClient" TableID="B15F1AC0-75CE-4079-A769-C231337F6EBA" AutoCommit="0" FastCommit="0" PreserveState="0">
+		<DATASET ID="1160C6AD-8F92-49F3-A7E0-EE3546CEC057" Name="WebClient_OutDSetWebClient" TableID="B15F1AC0-75CE-4079-A769-C231337F6EBA" AutoCommit="0" FastCommit="0" PreserveState="0">
 			<SQLTEXT>
 			<![CDATA[
 SELECT "WebClient_OutDTblWebClient"."WebClientId", "WebClient_OutDTblWebClient"."WebClient", "WebClient_OutDTblWebClient"."success", "WebClient_OutDTblWebClient"."news", "WebClient_OutDTblWebClient"."title", "WebClient_OutDTblWebClient"."id", "WebClient_OutDTblWebClient"."description", "WebClient_OutDTblWebClient"."spot", "WebClient_OutDTblWebClient"."image", "WebClient_OutDTblWebClient"."error" FROM "WebClient_OutDTblWebClient"

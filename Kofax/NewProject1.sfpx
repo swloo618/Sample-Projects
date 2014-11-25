@@ -1,9 +1,9 @@
-<SMARTFACEPROJECT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SmartfaceProjectPlayerUpdated.xsd" XmlVersion="1015" LType="1" Name="NewProject1" UID="1667327604" SID="-1" SName="No service selected" WS="http://www.smartface.biz" PublishUrl="http://www.smartface.biz" LastObjectID="DC7965F7-4337-4FD6-B246-07B3B803E056" ActiveProfileIndex="0" Version="1.0.0" BiDiMode="0">
+<SMARTFACEPROJECT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SmartfaceProjectPlayerUpdated.xsd" XmlVersion="1019" LType="1" Name="NewProject1" UID="1667327604" SID="-1" SName="No service selected" WS="http://www.smartface.biz" PublishUrl="http://www.smartface.biz" LastObjectID="DC7965F7-4337-4FD6-B246-07B3B803E056" ActiveProfileIndex="1" Version="1.0.0" BiDiMode="0">
 	<MainPageSettings Name="Page1" />
-	<Platform ScreenHeight="480" ScreenWidth="320" Dpi="163" AndroidVirtualDevice="" />
+	<Platform ScreenHeight="480" ScreenWidth="320" Dpi="163" iOSProfileName="iPhone 3" androidProfileName="" AndroidVirtualDevice="" />
 	<SocialNetworks FacebookAppUID="" FacebookAppSecret="" TwitterConsumerKey="" TwitterConsumerSecret="" />
 	<MapApi AndroidMapKey="" IosGeocodingKey="" />
-	<AdMob PublisherId="" TestUsage="0" />
+	<AdMob PublisherId="" TestUsage="0" AdmobUsage="0" />
 	<FlurryAnalytics Enable="0" IOSAppID="" AndroidAppID="">
 		<LogUserInfoStatistics Enable="1" const_UserID="" const_Age="" const_Gender="">
 			<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" />

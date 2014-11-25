@@ -1,0 +1,96 @@
+<PG ID="C7388CCE-7E7A-4DB2-A6AC-AB4201920AF7" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="startPage" BgClr="f4efef" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="540" H="960" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<CONTAINER ID="E2EBD82A-2540-4303-A2BF-1F1AC7D5DC05" Nm="cntUpload" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="225%" W="1000%" H="183%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="ccc7c8" BrW="1" BgTparent="0" BgClr="ffffff" />
+			<ITEMS>
+				<LBL ID="9A6E89B5-30A8-42FE-A96F-4192B8D709BA" Nm="lblTitleUpload" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+					<LCT X="125%" Y="0%" W="875%" H="500%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Arial" FSize="12p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="000000" FStyle="0" Undrln="0" />
+					<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;Upload&quot;" />
+					</DATA>
+				</LBL>
+				<PIC ID="4408102F-6752-4036-B8DA-B891294CCCE0" Nm="imgUpload" Vsb="1" Alpha="100" TouchEnabled="0">
+					<LCT X="0" Y="50%" W="125%" H="950%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<POS Pos="7" SMode="1" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="resources://upload.png" />
+					</DATA>
+				</PIC>
+				<ACTIVITYINDICATOR ID="B7CBA2B3-B106-4C54-9F9B-1A1A973E2B8D" Nm="aiUpload" Vsb="0" Style="1" TouchEnabled="0">
+					<LCT X="33%" Y="119%" W="21" H="21" Z="0" Anc="3" LockAutoPosition="0" />
+				</ACTIVITYINDICATOR>
+				<LBL ID="43BCE6A9-68DF-46DC-92C4-1376C0360E61" Nm="lblSubtitleUpload" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+					<LCT X="125%" Y="500%" W="875%" H="250%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="938e8e" FStyle="0" Undrln="0" />
+					<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;Not available file to upload&quot;" />
+					</DATA>
+				</LBL>
+				<LBL ID="95AFBA93-0522-4304-8154-375B41896DB0" Nm="lblDescUpload" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+					<LCT X="125%" Y="750%" W="875%" H="250%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="938e8e" FStyle="0" Undrln="0" />
+					<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;Tap here to upload&quot;" />
+					</DATA>
+				</LBL>
+			</ITEMS>
+			<ONTOUCH script="startPage_cntUpload_OnTouch(e);" />
+			<ONTOUCHENDED script="startPage_cntUpload_OnTouchEnded(e);" />
+		</CONTAINER>
+		<CONTAINER ID="5756B327-C4DF-4DFB-AC91-7DBE7DF4E6F0" Nm="cntDownload" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="550%" W="1000%" H="183%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="ccc7c8" BrW="1" BgTparent="0" BgClr="ffffff" />
+			<ITEMS>
+				<LBL ID="2969E321-0DEA-4D6C-A4FA-77615FBC059C" Nm="lblTitleDownload" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+					<LCT X="125%" Y="0%" W="875%" H="500%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Default" FSize="12p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="000000" FStyle="0" Undrln="0" />
+					<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;Download&quot;" />
+					</DATA>
+				</LBL>
+				<PIC ID="1E7D568F-17FF-470C-901B-54A5D2C95F4D" Nm="imgDownload" Vsb="1" Alpha="100" TouchEnabled="0">
+					<LCT X="0" Y="50%" W="125%" H="950%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<POS Pos="7" SMode="1" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="resources://download.png" />
+					</DATA>
+				</PIC>
+				<ACTIVITYINDICATOR ID="C40E1D2F-23B1-464F-9A04-A517891B29C6" Nm="aiDownload" Vsb="0" Style="1" TouchEnabled="0">
+					<LCT X="33%" Y="119%" W="21" H="21" Z="0" Anc="3" LockAutoPosition="0" />
+				</ACTIVITYINDICATOR>
+				<LBL ID="0D421D01-02D2-4BE5-9681-A2ECA15722A1" Nm="lblSubtitleDownload" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+					<LCT X="125%" Y="500%" W="875%" H="250%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="938e8e" FStyle="0" Undrln="0" />
+					<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="0" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;Not available file to download&quot;" />
+					</DATA>
+				</LBL>
+				<LBL ID="2F6A72DA-A1AA-4198-AD4B-BF5B560D2F6D" Nm="lblDescDownload" Type="2" Mask="" Vsb="1" Alpha="100" TouchEnabled="0" MtLn="0" PxlEdg="3" ShwScrl="0" AutoLnk="0" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0" AutoSize="0">
+					<LCT X="125%" Y="750%" W="1000%" H="875%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Default" FSize="6p" FUnit="pt" AdjustFSize="0" MinFSize="7" FColor="938e8e" FStyle="0" Undrln="0" />
+					<STYLE BgTparent="1" BgClr="cccccc" BrClr="999999" BrW="0" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;Tap here to download&quot;" />
+					</DATA>
+				</LBL>
+			</ITEMS>
+			<ONTOUCH script="startPage_cntDownload_OnTouch(e);" />
+			<ONTOUCHENDED script="startPage_cntDownload_OnTouchEnded(e);" />
+		</CONTAINER>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="startPage_Self_OnShow(e);" />
+		<ONKEYP script="startPage_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>
