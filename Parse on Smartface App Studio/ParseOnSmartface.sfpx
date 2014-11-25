@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <SMARTFACEPROJECT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SmartfaceProjectPlayerUpdated.xsd" XmlVersion="1019" LType="1" Name="ParseOnSmartface" UID="1667327604" SID="-1" SName="No service selected" WS="http://www.smartface.biz" PublishUrl="http://www.smartface.biz" LastObjectID="FA9E0156-54D4-4659-BED8-5C66E61E1CDC" ActiveProfileIndex="1" Version="1.0.0" BiDiMode="0">
+=======
+<SMARTFACEPROJECT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SmartfaceProjectPlayerUpdated.xsd" XmlVersion="1017" LType="1" Name="ParseOnSmartface" UID="1667327604" SID="-1" SName="No service selected" WS="http://www.smartface.biz" PublishUrl="http://www.smartface.biz" LastObjectID="FA9E0156-54D4-4659-BED8-5C66E61E1CDC" ActiveProfileIndex="1" Version="1.0.0" BiDiMode="0">
+>>>>>>> origin/master
 	<MainPageSettings Name="Page1" />
 	<Platform ScreenHeight="960" ScreenWidth="640" Dpi="326" iOSProfileName="iPhone 4(s)" androidProfileName="" AndroidVirtualDevice="" />
 	<SocialNetworks FacebookAppUID="" FacebookAppSecret="" TwitterConsumerKey="" TwitterConsumerSecret="" />
