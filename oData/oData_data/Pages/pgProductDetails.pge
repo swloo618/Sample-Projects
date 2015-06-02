@@ -1,0 +1,7 @@
+<SMF xsi:schemaLocation="http://developer.smartface.biz/SAS/schema/4.1.0/sasObjects.xsd sasObjects.xsd" xmlns="http://developer.smartface.biz/SAS/schema/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UI>
+		<Page id="EC1F9AE6-8AA0-4932-9AB6-8C5B101A2C24" name="pgProductDetails" backgroundImage="" fillColor="#efeff4" imageFillType="SMF.UI.ImageFillType.tile" imagePosition="SMF.UI.Alignment.topLeft" limitObjectsInPageBoundaries="false" lockOrientation="false" showStatusBar="true" showNavigationBar="true" showActionBar="true" touchEnabled="true" templatePageID="00000000-0000-0000-0000-100000000001">
+			<EVENTS onShow="pgProductDetails_Self_OnShow(e);" onKeyPress="pgProductDetails_Self_OnKeyPress(e);" />
+		</Page>
+	</UI>
+</SMF>

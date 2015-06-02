@@ -1,0 +1,10 @@
+<SMF xsi:schemaLocation="http://developer.smartface.biz/SAS/schema/4.1.0/sasObjects.xsd sasObjects.xsd" xmlns="http://developer.smartface.biz/SAS/schema/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UI>
+		<SplashPage id="00000000-0000-0000-0000-000000000002" name="SplashPage" backgroundImage="defaultsplash" fillColor="#43c2cc" imageFillType="SMF.UI.ImageFillType.stretch" imagePosition="SMF.UI.Alignment.topLeft" limitObjectsInPageBoundaries="false" lockOrientation="false" showStatusBar="false" showNavigationBar="false" showActionBar="false" touchEnabled="true" templatePageID="00000000-0000-0000-0000-100000000001">
+			<controls>
+				<Image name="LogoImage" id="EFDE352E-2C57-4869-BC73-73B56B39112F" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="100%" height="50%" left="0px" top="0px" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true" designVisible="true" imageFillType="SMF.UI.ImageFillType.normal" imagePosition="SMF.UI.Alignment.center" dataSource="" image="logo" alpha="1" anchor.left="true" anchor.top="true" anchor.right="false" anchor.bottom="false" enableScroll="false" enableCache="true" enableZoom="false" />
+			</controls>
+			<EVENTS onShow="SplashPage_Self_OnShow(e);" />
+		</SplashPage>
+	</UI>
+</SMF>

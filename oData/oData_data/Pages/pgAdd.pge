@@ -1,0 +1,7 @@
+<SMF xsi:schemaLocation="http://developer.smartface.biz/SAS/schema/4.1.0/sasObjects.xsd sasObjects.xsd" xmlns="http://developer.smartface.biz/SAS/schema/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UI>
+		<Page id="6764D3FB-8D73-433C-933F-F980D63E7FC3" name="pgAdd" backgroundImage="" fillColor="#efeff4" imageFillType="SMF.UI.ImageFillType.tile" imagePosition="SMF.UI.Alignment.topLeft" limitObjectsInPageBoundaries="false" lockOrientation="false" showStatusBar="true" showNavigationBar="true" showActionBar="true" touchEnabled="true" templatePageID="00000000-0000-0000-0000-100000000001">
+			<EVENTS onShow="pgAdd_Self_OnShow(e);" onKeyPress="pgAdd_Self_OnKeyPress(e);" />
+		</Page>
+	</UI>
+</SMF>
